@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood POS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FastFood POS</h1>
+        </header>
+        <main>
+            <section id="products" class="grid-container"></section>
+            <aside id="cart">
+                <h2>Current Order</h2>
+                <ul id="cart-items"></ul>
+                <p class="total">Total: $<span id="cart-total">0.00</span></p>
+                <button id="submit-order">Submit Order</button>
+            </aside>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
